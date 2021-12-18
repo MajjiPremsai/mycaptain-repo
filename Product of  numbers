@@ -1,0 +1,9 @@
+#include<iostream>
+int main()
+{
+double num1,num2,product;
+cout<<"enter two numbers:"<<endl;
+cin>>num1>>num2;
+product=num1*num2;
+cout<<"product:"<<product;
+}
