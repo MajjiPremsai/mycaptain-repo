@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int i,arr[i];
+    cout<<"enter numbers:";
+    for(i=0;i<5;i++)
+    {
+        arr[i];
+        cin>>arr[i];
+    }
+    cout<<"you entered:";
+    for(i=0;i<5;i++)
+    {
+        cout<<arr[i];
+        cout<<"\n";
+    }
+}
