@@ -1,0 +1,30 @@
+#include<iostream>
+ using namespace std;
+ int prime(int n)
+ {
+     int n1,count=1;
+     for(n1=2;n1<=n/2;n1++)
+     {
+         if(n%n1==0)
+         {
+             count=0;
+             break;
+         }
+     }
+     return count;
+ }
+ int main()
+ {
+     int n,i;
+     cout<<"enter a number:";
+     cin>>n;
+     for(i=0;i<=n/2;i++)
+     if (prime(i))
+     {
+         if (prime(n-i))
+         {
+             cout<<n<<"="<<i<<"+"<<n-i<<endl;
+         }
+     }
+    return 0;
+ }
